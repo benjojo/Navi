@@ -9,5 +9,5 @@ It loops though all the of the deivces it can see and will try to pair with them
 hard as it can, this is a good way to get them to stop making their bluetooth
 discoverable.
 
-![http://i.imgur.com/s1CEHie.png]()
-![http://i.imgur.com/6MHWcpk.jpg]()
+![](http://i.imgur.com/s1CEHie.png)
+![](http://i.imgur.com/6MHWcpk.jpg)
