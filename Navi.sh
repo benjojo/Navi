@@ -1,4 +1,5 @@
 #!/bin/bash
+hciconfig hci0 up
 while(true) do
 	hcitool scan | grep -o '\([0-9a-fA-F]\{2\}:\)\{5\}[0-9a-fA-F]\{2\}' | \
 	while read i
