@@ -1,5 +1,5 @@
 #!/bin/bash
-command -v hciconfig >/dev/null 2>&1 || { echo >&2 apt-get install bluez bluez-utils; exit 1; }
+command -v hciconfig >/dev/null 2>&1 || { echo >&2 apt-get install bluez bluez-utils; }
 command -v hcitool >/dev/null 2>&1 || { echo >&2 "I require hcitool but it's not installed.  Aborting."; exit 1; }
 hciconfig hci0 up
 hciconfig hci0 name "TurnOffBlueTooth"
